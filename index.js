@@ -53,7 +53,6 @@ function averageColor(imageElement, parentElement) {
     length = imgData.data.length;
 
     for (var i = 0; i < length; i += 4) {
-
         // Sum all values of red colour
         rgb.r += imgData.data[i];
 
